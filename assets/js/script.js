@@ -46,7 +46,7 @@ function mudarImg(novaImagem ,arrayImagens ){
 }
 function mudaEstado() {
     
-    const fig = document.getElementById('fig');
+    const fig = document.querySelector('#fig');
     fig.textContent = `${arrayEstado[est] }`;
     est++    
     if (est > 4) {
